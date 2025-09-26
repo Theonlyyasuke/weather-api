@@ -120,4 +120,4 @@ def get_weather_alerts():
 
 if __name__ == '__main__':
     # The 'debug=True' argument allows you to see errors and auto-reloads the server on code changes.
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
